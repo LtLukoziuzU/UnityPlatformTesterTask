@@ -3,4 +3,4 @@
 
 
 * Reproducible bugs
- * Two editor windows load when launching project every time - one proper, and one broken rendering only white/black space or corrupted view of proper window - https://i.imgur.com/SNbmLKd.png . Closing either window closes Unity fully. Tried looking for a duplicate in Issue Tracker, but didn't find any, so reported a bug ( 1293851 ).
+  * Two editor windows load when launching project every time - one proper, and one broken rendering only white/black space or corrupted view of proper window - https://i.imgur.com/SNbmLKd.png . Closing either window closes Unity fully. Tried looking for a duplicate in Issue Tracker, but didn't find any, so reported a bug ( 1293851 ).
