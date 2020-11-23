@@ -10,3 +10,4 @@
 <br /> <br />
 * Annoyances
   * New Input System's "Touch Samples" package has dependancy on Cinemachine and Probuilder, making it annoying to grab it when I only want to just look up how the touch controls are used there, requiring me to import multiple packages I won't be using for my own project
+  * Spent good 15 minutes just wracking my head why I couldn't assign Inventory Slot game objects as public variables to a controller directly (once game played, script would not understand the references and see them blank, even though Inspector showed everything okay). Eventually realized I can use GetComponentsInChildren, so changed slightly how I do Controllers and continued on
