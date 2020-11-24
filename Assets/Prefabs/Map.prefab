@@ -371,6 +371,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mapSquares: []
+  grassSprite: {fileID: 21300000, guid: e5fd160618566a540bb31ace540a1429, type: 3}
+  tilledSprite: {fileID: 21300000, guid: 84e4db79b199212429bdff657fd27230, type: 3}
 --- !u!1001 &2713199543459773532
 PrefabInstance:
   m_ObjectHideFlags: 0

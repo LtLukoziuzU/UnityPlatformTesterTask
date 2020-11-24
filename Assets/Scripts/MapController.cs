@@ -6,6 +6,7 @@ public class MapController : MonoBehaviour
 {
 
     public MapSquare[] mapSquares;
+    public Sprite grassSprite, tilledSprite;
 
     // Start is called before the first frame update
     void Start()
@@ -16,6 +17,8 @@ public class MapController : MonoBehaviour
             mapSquares[i].squareState = "Grass";
             mapSquares[i].squareID = i;
         }
+        mapSquares[0].squareState = "Shop";
+        mapSquares[63].squareState = "Bed";
     }
 
     // Update is called once per frame
