@@ -36,3 +36,11 @@
 * Made a MapController (for now just populates each Map Square info, will be necessary for growth cycling)
 * Made the Player find both Controllers (so that they all can interact in script)
 * Next up: Finally write logic for digging ground
+
+## Nov 24
+
+* Got the tools to work. Ground now can be tilled and watered
+* Got the day cycle working too. Going to "Bed" (house) and pressing "Use" now passes to next day, causing ground to slowly revert back to grass
+* Added some sprites, then realized, that maybe I shouldn't used copyrighted sprites. I am a terrible artist though, so seeds/plants' quality deteriorated, seriously.
+* Fully did shop and its logic. Can now buy seeds and sell seeds/harvested plants, and Player cannot walk while in Shop
+* Tomorrow finally time to finish this. Only two tasks left: get seeds to plant, grow and get harvested; and build script
