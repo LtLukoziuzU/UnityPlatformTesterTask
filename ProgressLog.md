@@ -44,3 +44,13 @@
 * Added some sprites, then realized, that maybe I shouldn't used copyrighted sprites. I am a terrible artist though, so seeds/plants' quality deteriorated severely.
 * Fully did shop and its logic. Can now buy seeds and sell seeds/harvested plants, and Player cannot walk while in Shop
 * Tomorrow finally time to finish this. Only two tasks left: get seeds to plant, grow and get harvested; and build script
+
+## Nov 25
+
+* Finished the game part - seeds can be planted, grown if watered and harvested once it hits the last stage
+* Wrote up comments to the code (should have done it as I've wrote code but better later than never)
+* Tested a bit more extensively on my personal phone but the only issue I found was that I didn't anchor one of UI elements (Count) correctly, so it was off-screen
+* Wrote the build script. Left it last as I am already familiar with how it works and didn't have any trouble making it (the only real troubles were build time (the PC I have isn't the greatest thing) and not immediately realizing that GraphicsAPIs were in UnityEngine.Rendering namespace)
+* Built all seven builds, now packing it up as a release here
+
+# THE PROJECT IS PRESENTABLE, AND WILL BE SENT TO UNITY AT THIS POINT. HOWEVER, I WANT TO DO SOME IMPROVEMENTS TO IT OVER NEXT WEEK, SO THIS LOG AND UPDATES TO PROJECT WILL CONTINUE FOR A FEW MORE DAYS. 
