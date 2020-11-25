@@ -155,9 +155,9 @@ RectTransform:
   m_Father: {fileID: 1810465735}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 85, y: 458}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 85, y: -36}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &69715061
@@ -1919,6 +1919,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -2626017431933695857, guid: 7418e794fb7e1b4489c429b8f2eebd9e, type: 3}
+      propertyPath: parsnipSprites.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -2626017431933695857, guid: 7418e794fb7e1b4489c429b8f2eebd9e, type: 3}
+      propertyPath: potatoSprites.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2626017431933695857, guid: 7418e794fb7e1b4489c429b8f2eebd9e, type: 3}
+      propertyPath: parsnipSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: b65706ac764262d428d3cdba4b1d9ee6, type: 3}
+    - target: {fileID: -2626017431933695857, guid: 7418e794fb7e1b4489c429b8f2eebd9e, type: 3}
+      propertyPath: parsnipSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: df4c742aa4e5b114198b3817990fc27d, type: 3}
+    - target: {fileID: -2626017431933695857, guid: 7418e794fb7e1b4489c429b8f2eebd9e, type: 3}
+      propertyPath: parsnipSprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: f0e3e68ebc33ad845a9f7053914588b8, type: 3}
+    - target: {fileID: -2626017431933695857, guid: 7418e794fb7e1b4489c429b8f2eebd9e, type: 3}
+      propertyPath: parsnipSprites.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: 05b3135ed8bbe364a95e521b811590bb, type: 3}
+    - target: {fileID: -2626017431933695857, guid: 7418e794fb7e1b4489c429b8f2eebd9e, type: 3}
+      propertyPath: parsnipSprites.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: a20fe63594212ee429087cfe14f0556b, type: 3}
+    - target: {fileID: -2626017431933695857, guid: 7418e794fb7e1b4489c429b8f2eebd9e, type: 3}
+      propertyPath: potatoSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 8ae981d4f07bf3442b6299af1dfafd5f, type: 3}
+    - target: {fileID: -2626017431933695857, guid: 7418e794fb7e1b4489c429b8f2eebd9e, type: 3}
+      propertyPath: potatoSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 93f677415ebc01243b81a29172b30257, type: 3}
+    - target: {fileID: -2626017431933695857, guid: 7418e794fb7e1b4489c429b8f2eebd9e, type: 3}
+      propertyPath: potatoSprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 1d2b4900eb7d94c4b9a0be4e2e01e5e9, type: 3}
     - target: {fileID: 5511785270364787370, guid: 7418e794fb7e1b4489c429b8f2eebd9e, type: 3}
       propertyPath: m_Sprite
       value: 

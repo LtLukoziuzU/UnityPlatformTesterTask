@@ -63,6 +63,8 @@ MonoBehaviour:
   images: []
   items: []
   counter: {fileID: 0}
+  parsnipSprite: {fileID: 21300000, guid: 136457c53617c7145b6a38044fa77799, type: 3}
+  potatoSprite: {fileID: 21300000, guid: d7e61d80217ef3b498ebbf37ea0ff74a, type: 3}
 --- !u!1001 &124444395326953230
 PrefabInstance:
   m_ObjectHideFlags: 0

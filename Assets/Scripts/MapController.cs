@@ -2,13 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//used to initialize the map squares at the start of game, 
+//as well as holds possible map sprites for game controller to use (pre-set in Inspector)
 public class MapController : MonoBehaviour
 {
 
     public MapSquare[] mapSquares;
     public Sprite grassSprite, tilledSprite;
+    public Sprite[] parsnipSprites, potatoSprites;
 
-    // Start is called before the first frame update
     void Start()
     {
         mapSquares = GetComponentsInChildren<MapSquare>();
@@ -21,9 +23,4 @@ public class MapController : MonoBehaviour
         mapSquares[63].squareState = "Bed";
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
